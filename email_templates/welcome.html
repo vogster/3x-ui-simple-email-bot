@@ -1,0 +1,39 @@
+<p>Здравствуйте!</p>
+<p>Ваша подписка в сервисе {{service_name}} успешно зарегистрирована. Ниже представлена информация о вашем тарифе и ссылка для импорта в клиент:</p>
+
+<div class="stats-grid">
+    <div class="stats-row">
+        <div class="stats-cell stats-label">Срок действия:</div>
+        <div class="stats-cell stats-value">{{expire_days}}</div>
+    </div>
+    <div class="stats-row">
+        <div class="stats-cell stats-label">Лимит трафика:</div>
+        <div class="stats-cell stats-value">{{limit_gb}}</div>
+    </div>
+</div>
+
+<p style="text-align: center;">
+    <a href="{{sub_url}}" class="button">Получить настройки {{service_name}}</a>
+</p>
+
+<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 0 auto 20px auto;">
+    <tr>
+        <td style="padding: 0 10px;">
+            <a href="{{happ_url}}" class="button" style="margin: 0; white-space: nowrap;">Добавить в Happ</a>
+        </td>
+        <td style="padding: 0 10px;">
+            <a href="{{incy_url}}" class="button" style="margin: 0; white-space: nowrap;">Добавить в Incy</a>
+        </td>
+    </tr>
+</table>
+
+<p>Если кнопка выше не работает, вы можете вручную скопировать ссылку подписки:</p>
+<div class="code-box">{{sub_url}}</div>
+
+<p><b>Базовые команды (можно отправить письмом боту):</b></p>
+<ul>
+    <li><code>/status</code> — узнать остаток трафика и статус подписки</li>
+    <li><code>/help</code> — получить список всех команд и инструкцию</li>
+</ul>
+
+<p>Приятного пользования!</p>
