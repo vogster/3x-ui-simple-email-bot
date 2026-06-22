@@ -105,8 +105,6 @@ cp  .env.example  .env
 
   
 
-> [!TIP]
-
 > При использовании Gmail, Yandex или Mail.ru обязательно создайте **Пароль приложения** в настройках безопасности почты. Обычный пароль от ящика работать не будет.
 
   
@@ -140,9 +138,7 @@ pip  install  -r  requirements.txt
   
 
 ```bash
-
 python  email_bot.py
-
 ```
 
   
@@ -186,5 +182,3 @@ python  email_bot.py
   
 
 Проект распространяется под лицензией MIT. Делался для личного использования, forks & pull requests welcome!
-
-```
